@@ -7,12 +7,6 @@ variable "instance_type" {
 variable "ec2-names" {
   type = list(any)
 }
-variable "secret_key" {
-  type = string
-}
-variable "access_key" {
-  type = string
-}
 variable "Deparatment" {
   type = list(any)
 }
