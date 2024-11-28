@@ -13,3 +13,5 @@ variable "Deparatment" {
 variable "user" {
   type = set(string)
 }
+variable "ami" {
+}
